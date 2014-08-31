@@ -1,0 +1,42 @@
+File : dir\common\lib\test-common-lib.js
+Error:
+	Evidence :     console.log(1 == 2)
+	Reason : Expected '===' and instead saw '=='.
+	Line : 6
+	Character : 21
+
+Error:
+	Evidence :     console.log(1 == 2)
+	Reason : Missing semicolon.
+	Line : 6
+	Character : 24
+
+=================================X X X X X X X=================================
+File : dir\common\test-common.js
+Error:
+	Evidence :     console.log("Hi, this is test-common.js")
+	Reason : Missing semicolon.
+	Line : 5
+	Character : 46
+
+Error:
+	Evidence :     console.log(1 == 1)
+	Reason : Expected '===' and instead saw '=='.
+	Line : 6
+	Character : 21
+
+Error:
+	Evidence :     console.log(1 == 1)
+	Reason : Missing semicolon.
+	Line : 6
+	Character : 24
+
+=================================X X X X X X X=================================
+File : dir\foo.js
+Error:
+	Evidence : alert('1')
+	Reason : Missing semicolon.
+	Line : 4
+	Character : 11
+
+=================================X X X X X X X=================================

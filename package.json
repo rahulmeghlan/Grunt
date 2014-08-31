@@ -1,0 +1,9 @@
+{
+  "name": "Learning-Space-Grunt",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "jshint-stylish": "^0.4.0"
+  }
+}
